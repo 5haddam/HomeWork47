@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .header {
+            height: 150px;
+            width: 100%;
+            background-color: #c6c2fd;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 50px;
+            z-index: 2;
+        }
+        input {
+            width: calc(100vw - 100px);
+            height: 60px;
+            border-radius: 10px;
+            border: none;
+            background-color: #fff;
+            padding: 10px 25px;
+            font-size: 18px;
+        }
+        input:focus-visible {
+            outline: none;
+        }
+        .main {
+            padding: 200px 50px 50px;
+        }
+        .toDo {
+            border: 1px solid rgb(49, 0, 133);
+            border-radius: 10px;
+            padding: 30px 20px;
+            margin-bottom: 25px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <script src="index.js"></script>
+</body>
+</html>
